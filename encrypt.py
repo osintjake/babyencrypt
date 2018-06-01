@@ -24,5 +24,13 @@ for character in message:
         newMessage += character
 
 print(newMessage)
+#name the file
+fileName = input('What would you like this file to be called? ')
+
+#creates the file as a .txt
+file = open(fileName + '.txt','wt')
+file.write(newMessage)
+file.close()
 
 input('Press ENTER to exit')
+
