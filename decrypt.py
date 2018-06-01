@@ -26,3 +26,5 @@ for character in message:
         newMessage += character
 
 print(newMessage)
+
+input('Press ENTER to exit')
